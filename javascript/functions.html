@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    /////////////pre defined functions / built-in functions
+
+    // var name = prompt("Enter your name");
+    // document.write("<h1>My name is "+ name +"</h1>");
+    // var num = parseInt(prompt("Enter number here"));
+    // document.write(typeof(num));
+    // alert("Are you sure want to delete?");
+    // confirm("Are you sure want to delete?");
+
+    /////////////user defined functions
+    function add()
+    {
+        var num1 = 20;
+        var num2 = 10;
+        var res = num1 + num2;
+        document.write(`<h1>Addition of numbers are : ${res}</h1>`);
+    }
+    add();
+
+    function multiply(num1,num2)
+    {
+        var res = num1 * num2;
+        document.write(`<h1>Multiplication of numbers are : ${res}</h1>`);
+    }
+    multiply(10,10);
+    multiply(20,10);
+    multiply(50,10);
+    multiply(100,10);
+</script>
+</html>

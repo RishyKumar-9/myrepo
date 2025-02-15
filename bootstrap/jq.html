@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+
+<!-- <img src="images/car1.jpg" id="img" class="m-3" height="250px" width="350px" alt="">
+<br>
+<button id="hideBtn" class="btn btn-primary m-3">Hide</button>
+<button id="showBtn" class="btn btn-success m-3">Show</button>
+<button id="toggleBtn" class="btn btn-warning m-3">Toggle</button> -->
+
+<button id="animate" style="margin: 10px;background-color: brown;color: white;">Animate Div</button>
+<div style="background-color: steelblue;height: 100px;width: 100px;position: absolute;margin: 10px;">
+
+</div>
+    
+</body>
+<script src="js/bootstrap.bundle.js"></script>
+<script>
+    $(document).ready(function(){
+
+        // $("#hideBtn").click(function(){
+        //     $("#img").hide();
+        // });
+
+        // $("#showBtn").click(function(){
+        //     $("#img").show();
+        // });
+
+        // $("#toggleBtn").click(function(){
+        //     $("#img").toggle();
+        // });
+
+        $("#animate").click(function(){
+            $("div").animate({
+                left:'300px',
+                opacity:'0.7',
+                height: '200px',
+                width: '200px',
+            });
+        });
+
+    });
+</script>
+</html>

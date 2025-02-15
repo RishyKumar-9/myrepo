@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    ////////////arrays
+
+    // var fruits = ["Apple","Mango","Orange","Pineapple","Kiwi"];
+    // document.write(`<h2>${fruits[1]}</h2>`);
+    // document.write(fruits[1]);
+
+    // var student = {
+    //     name : "Muhammad Ali",
+    //     age : 21,
+    //     male : true,
+    //     job : null,
+    //     weight : 60.5
+    // };
+    // document.write(`<h2>${student.age}</h2>`);
+
+    // var age = 17;
+    // var edu = "inter";
+    var age = parseInt(prompt("Enter your age ?"));
+    var edu = prompt("Enter your education?");
+    if(age >= 18)
+    {
+        document.write(`<h2>You are ${age} years old so your are eligible</h2>`);
+    }
+    else if(edu == "inter")
+    {
+        document.write(`<h2>You education is ${edu} so your are eligible</h2>`);
+    }
+    else{
+        document.write(`<h2>You are ${age} years old so your are not eligible</h2>`);
+    }
+
+</script>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        input{
+            border-radius: 10px;
+        }
+        label{
+            font-size: x-large;
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <marquee behavior="alternate" scrollamount="20" direction="right" style="font-size: xx-large;">STUDENT FORM</marquee>
+
+
+    <fieldset style="border: 2px double black;">
+
+        <legend>
+            <h1>STUDENT FORM</h1>
+        </legend>
+
+        <form>
+
+            <label>NAME:</label>
+            <input type="text" required placeholder="NAME">
+
+            <br>
+            <br>
+
+            <label>F.NAME:</label>
+            <input type="text">
+
+            <br>
+            <br>
+
+            <label>EMAIL:</label>
+            <input type="email">
+
+
+            <br>
+            <br>
+
+            <label>PASSWORD:</label>
+            <input type="password">
+
+
+            <br>
+            <br>
+
+            <label>GENDER:</label>
+            <br>
+            MALE
+            <input type="radio" name="gen">
+            <br>
+            FEMALE
+            <input type="radio" name="gen">
+
+            <br>
+            <br>
+
+
+            <label >CITY</label>
+            <select>
+                <option selected disabled>SELECT CITY</option>
+                <option>KARACHI</option>
+                <option>LAHORE</option>
+                <option>MULTAN</option>
+            </select>
+
+            <br>
+            <br>
+
+            <label>SUBJECT</label>
+            <br>
+            HTML:
+            <input type="checkbox">
+            CSS:
+            <input type="checkbox">
+            JS:
+            <input type="checkbox">
+
+            <br>
+            <br>
+
+            <label>FLIE</label>
+            <input type="file">
+
+            <br>
+            <br>
+
+            <label>Color</label>
+            <input type="color">
+
+            <br>
+            <br>
+
+            <label>DATE OF BIRTH</label>
+            <input type="date">
+
+            <br>
+            <br>
+
+            <label>SUBMIT DATE</label>
+            <input type="datetime-local">
+
+            <br>
+            <br>
+            <!-- <input type="button" value="DONE"> -->
+            <input style="background-color: green; color: white;" type="submit" value="SUBMIT">
+            <input  style="background-color: rgb(128, 0, 0); color: white;" type="reset" value="reset">
+
+
+        </form>
+    </fieldset>
+</body>
+
+</html>

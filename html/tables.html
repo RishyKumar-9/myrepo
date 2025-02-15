@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        tr th,td{
+            padding: 5px;
+            font-size: 18px;
+        }
+        tr th{
+            background-color: gray;
+        }
+        tr td{
+            background-color: lightgray;
+        }
+        tr td:hover{
+            background-color: white;
+            cursor: pointer;
+        }
+        table{
+            box-shadow: 10px 10px 20px black;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Html Tables</h1>
+        <table border="2">
+            <tr align="center">
+                <th>Id</th>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Email</th>
+                <th>Country</th>
+                <th>City</th>
+            </tr>
+            <tr align="center">
+                <td>1001</td>
+                <td>Muhammad Ali</td>
+                <td>0345-8855258</td>
+                <td>ali@gmail.com</td>
+                <td>Pakistan</td>
+                <td>Karachi</td>
+            </tr>
+            <tr align="center">
+                <td>1002</td>
+                <td>Hamza</td>
+                <td colspan="2">0345-8855258</td>
+                <!-- <td>hamza@gmail.com</td> -->
+                <td>Pakistan</td>
+                <td rowspan="2">Lahore</td>
+            </tr>
+            <tr>
+                <td>1003</td>
+                <td>Hassan</td>
+                <td>0345-8855258</td>
+                <td>hassan@gmail.com</td>
+                <td>Pakistan</td>
+                <!-- <td>Lahore</td> -->
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
